@@ -1,23 +1,142 @@
-<android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/pager"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".FirstTimeUserActivity">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".FirstTimeUserActivity"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:focusableInTouchMode="true"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="#3b3b3b">
 
-    <!--
-    This title strip will display the currently visible page title, as well as the page
-    titles for adjacent pages.
-    -->
+    <ImageButton
+            android:id="@+id/novice_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/beginner"
+            android:layout_alignParentEnd="false"
+            android:layout_alignParentStart="false"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:contentDescription="Triggers novice workout plan"
+            android:layout_marginTop="50dp"
+            android:layout_alignParentTop="true"
+            />
 
-    <android.support.v4.view.PagerTitleStrip
-        android:id="@+id/pager_title_strip"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="top"
-        android:background="#33b5e5"
-        android:paddingBottom="4dp"
-        android:paddingTop="4dp"
-        android:textColor="#fff" />
+    <ImageButton
+            android:id="@+id/intermediate_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/beginner"
+            android:layout_alignParentEnd="false"
+            android:layout_alignParentStart="false"
+            android:contentDescription="@string/description_intermediate"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="20dp"/>
 
-</android.support.v4.view.ViewPager>
+    <ImageButton
+            android:id="@+id/advanced_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/beginner"
+            android:layout_alignParentEnd="false"
+            android:layout_alignParentStart="false"
+            android:layout_alignParentBottom="false"
+            android:layout_marginTop="350dp"
+            android:layout_marginLeft="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"/>
+
+    <ImageButton
+            android:id="@+id/custom_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/beginner"
+            android:layout_alignParentEnd="false"
+            android:layout_alignParentStart="false"
+            android:layout_marginTop="250dp"
+            android:layout_marginLeft="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Novice"
+            android:id="@+id/novice_text"
+            android:padding="10dp"
+            android:textAlignment="gravity"
+            android:singleLine="true"
+            android:textStyle="italic"
+            android:width="100dp"
+            android:gravity="center_vertical"
+            android:layout_alignParentEnd="false"
+            android:layout_alignParentStart="false"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="150dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignBottom="@+id/novice_button"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Intermediate"
+            android:id="@+id/intermediate_text"
+            android:padding="10dp"
+            android:textAlignment="gravity"
+            android:singleLine="true"
+            android:textStyle="italic"
+            android:width="200dp"
+            android:gravity="center_vertical"
+            android:layout_alignParentEnd="false"
+            android:layout_alignParentStart="false"
+            android:layout_alignTop="@+id/intermediate_button"
+            android:layout_alignLeft="@+id/novice_text"
+            android:layout_alignBottom="@+id/intermediate_button"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Advanced"
+            android:id="@+id/textView"
+            android:padding="10dp"
+            android:textAlignment="gravity"
+            android:singleLine="true"
+            android:textStyle="italic"
+            android:width="200dp"
+            android:gravity="center_vertical"
+            android:layout_alignParentEnd="false"
+            android:layout_alignParentStart="false"
+            android:layout_alignBottom="@+id/custom_button"
+            android:layout_alignLeft="@+id/intermediate_text"
+            android:layout_alignTop="@+id/custom_button"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Custom"
+            android:id="@+id/textView2"
+            android:padding="10dp"
+            android:textAlignment="gravity"
+            android:singleLine="true"
+            android:textStyle="italic"
+            android:width="200dp"
+            android:gravity="center_vertical"
+            android:layout_alignParentEnd="false"
+            android:layout_alignParentStart="false"
+            android:layout_alignTop="@+id/advanced_button"
+            android:layout_alignLeft="@+id/textView"
+            android:layout_alignBottom="@+id/advanced_button"/>
+
+
+</RelativeLayout>
