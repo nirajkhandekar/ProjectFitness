@@ -1,0 +1,15 @@
+# incremental data. DO NOT EDIT.
+# format is <lastModified> <length> <SHA-1> <path>
+# Encoding is UTF-8
+1370202605000 676 9218a402f69d9d6880d02817f429a69eae490d42 /Users/nirajkhandekar/ProjectFitness/HealthTracker/HealthTracker/src/main/res/layout/fragment_first_time_user_dummy.xml
+1370202596000 28454 07dcefe91e69d739b6d8770e5beb4c59cbf5a04e /Users/nirajkhandekar/ProjectFitness/HealthTracker/HealthTracker/src/main/res/drawable-xxhdpi/ic_launcher.png
+1370202605000 254 25b6404e44acb50c82590049639d4fb5fefbac8e /Users/nirajkhandekar/ProjectFitness/HealthTracker/HealthTracker/src/main/res/values-sw720dp-land/dimens.xml
+1370202605000 831 da0f8d175d7c63b0db91646cd1e0ca600471c573 /Users/nirajkhandekar/ProjectFitness/HealthTracker/HealthTracker/src/main/res/layout/firsttime_activity.xml
+1370202605000 244 045ff451db7cd8e61285502b8c9bbf7405f2078d /Users/nirajkhandekar/ProjectFitness/HealthTracker/HealthTracker/src/main/res/menu/first_time_user.xml
+1370202596000 14441 c32c65c754a34f708a90c9ae1875a39ed4ae07be /Users/nirajkhandekar/ProjectFitness/HealthTracker/HealthTracker/src/main/res/drawable-xhdpi/ic_launcher.png
+1370202604000 674 c78f92856947cb5742edaa3b94df76b0823dbbe7 /Users/nirajkhandekar/ProjectFitness/HealthTracker/HealthTracker/src/main/res/values/styles.xml
+1370202605000 360 e6555e0a66ad8486ab2d76a9ffb64c49aa369e76 /Users/nirajkhandekar/ProjectFitness/HealthTracker/HealthTracker/src/main/res/values/strings.xml
+1370202605000 211 4e1904afba59d31e5cd6133f6a4c360fa9a5913f /Users/nirajkhandekar/ProjectFitness/HealthTracker/HealthTracker/src/main/res/values/dimens.xml
+1370202596000 9058 d002c07f3fec57fd1b202ba4952b98d937458128 /Users/nirajkhandekar/ProjectFitness/HealthTracker/HealthTracker/src/main/res/drawable-hdpi/ic_launcher.png
+1370202596000 4381 be17220d52ae3fd2bfb182be01c116708f0d7ab5 /Users/nirajkhandekar/ProjectFitness/HealthTracker/HealthTracker/src/main/res/drawable-mdpi/ic_launcher.png
+1370202605000 181 84de2797380184d8b39af6f829afb092fb956173 /Users/nirajkhandekar/ProjectFitness/HealthTracker/HealthTracker/src/main/res/values-sw600dp/dimens.xml
